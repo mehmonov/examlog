@@ -22,7 +22,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"{streak_message}\nCommands:\n/log - Log your daily progress\n/mistake - Add a mistake\n/report - Get weekly summary\n/graph - Show progress graph")
 
 async def log_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Example: 15 30 27 24 33 1")
+    await update.message.reply_text("Send your log in this format:\nhours vocab reading writing math tests\nExample: 15 30 27 24 33 1")
     return LOG
 
 async def handle_log(update: Update, context: ContextTypes.DEFAULT_TYPE):
