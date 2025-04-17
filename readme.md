@@ -1,4 +1,4 @@
-# Bot for loggin sat exam(probably other process)
+# Bot for loggin tracking exam(probably other process)
 
 When preparing for the exam (especially self-study), it is important to monitor the process. The Telegram bot was created for this very purpose. With the help of the bot, you can monitor the process. You can analyze the results. You enter daily logs into the bot (via the /log command). The bot saves them. You can get a weekly report (maybe in a diagram) and analyze them. In addition, the bot can send daily reports to a specific channel. For many, tracking them while studying (for example, for me) gives a better result, you need to add your friends to a specific channel, make the bot an admin to the channel. The bot will send daily logs to your friends via the channel.
 
@@ -15,4 +15,4 @@ pip install -r req.txt
 ```
 and .env.example rename ->  .env(write variables)
 
-maybe running with server read - > _deploy/conf.txt
+maybe running with server read - > _deploy/read.md
